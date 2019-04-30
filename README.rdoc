@@ -1,5 +1,3 @@
-== README
-
 When upgrading `rabl` from `0.14.0` to `0.14.1` my views are breaking, related to this issue: https://github.com/nesquena/rabl/issues/724
 
 Stack:
@@ -16,7 +14,6 @@ Steps to reproduce:
 * do request in postman: `GET 0.0.0.0:3000/foos`
 
 yields:
-
 
 ```json
 {
@@ -59,7 +56,7 @@ comment out rabl 14.0 in gemfile, uncomment `gem 'rabl', '0.14.1'`
 
 results now:
 
-postman: 
+postman:
 
 
 ```json
