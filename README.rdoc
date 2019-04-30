@@ -17,6 +17,7 @@ Steps to reproduce:
 `GET 0.0.0.0:3000/foos`
 
 yields:
+
 ```json
 {
     "foos": [
@@ -58,6 +59,7 @@ comment out rabl 14.0 in gemfile, uncomment `gem 'rabl', '0.14.1'`
 results now:
 
 postman: 
+
 ```json
 {
     "foo::activerecord_relation": {
