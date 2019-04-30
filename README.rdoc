@@ -18,6 +18,7 @@ Steps to reproduce:
 
 yields:
 
+
 ```json
 {
     "foos": [
@@ -48,6 +49,7 @@ yields:
 or run test: `bundle _1.17.3_ exec rspec`
 yields:
 
+
 ```
 Finished in 0.07777 seconds (files took 2.07 seconds to load)
 2 examples, 0 failures
@@ -60,6 +62,7 @@ results now:
 
 postman: 
 
+
 ```json
 {
     "foo::activerecord_relation": {
@@ -71,6 +74,7 @@ postman:
 ```
 
 rspec:
+
 
 ```
 FF
