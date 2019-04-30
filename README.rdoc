@@ -13,8 +13,7 @@ Steps to reproduce:
 * see gemfile: uncomment `gem 'rabl', '0.14.0'`
 * bundle install (might need to run with version: `bundle _1.17.3_ install`)
 * start server: `rails s`
-* do request in postman:
-`GET 0.0.0.0:3000/foos`
+* do request in postman: `GET 0.0.0.0:3000/foos`
 
 yields:
 
