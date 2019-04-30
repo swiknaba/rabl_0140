@@ -1,14 +1,16 @@
 class FoosController < ApplicationController
+  before_action :seed
+
   def index
-    @foos = mock_foos
+    @foos = Foo.all
     render 'foos/index'
   end
 
-  def mock_foos
-    (0..5).map(&:mock_foo)
-  end
+  def seed
+    return if Foo.any?
 
-  def mock_foo
-    OpenStruct.new(id: 1, name: 'foo!')
+    5.times do |idx|
+      Foo.create!(name: "foo nb. #{idx}")
+    end
   end
 end
