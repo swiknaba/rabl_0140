@@ -53,6 +53,7 @@ Finished in 0.07777 seconds (files took 2.07 seconds to load)
 
 stop rails server.
 comment out rabl 14.0 in gemfile, uncomment `gem 'rabl', '0.14.1'`
+run bundle install
 
 results now:
 
